@@ -1,0 +1,42 @@
+# VSCode設定
+.vscode/
+
+# 仮想環境
+venv/
+
+# Django: キャッシュやデータベースなど
+**/__pycache__/
+**/*.py[cod]
+db.sqlite3
+
+**/migrations/
+!**/migrations/__init__.py
+
+event_images/
+
+backend/.env
+
+# Vite/React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite
+
+# lockファイル（必要に応じて除外）
+package-lock.json
+
+
+node_modules/
+package-lock.json
+package.json
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# ログ・ビルド・その他
+*.log
+
+
+# ドキュメント類（追跡したければ除く）
+WebApp.md

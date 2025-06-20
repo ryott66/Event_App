@@ -1,0 +1,35 @@
+.events {
+    /* border:0.1rem solid #797979; */
+    margin:2rem  15rem;
+
+}
+
+.event {
+    width:100%;
+    margin:1rem auto;
+    padding:1rem;
+    color:blue;
+    background-color:rgb(217, 244, 255);
+}
+
+.newEventbtn {
+    background-color:rgb(254, 130, 130);
+    color:white;
+}
+
+.logoutbtn {
+    margin-left:20rem;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  text-align: center;
+  transition: 0.3s ease;
+  cursor:pointer;
+  opacity:0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
